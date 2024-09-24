@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .head {
@@ -28,4 +29,113 @@ ul {
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+.second-section {
+    background-color: #1F2937;
+    font-family: sans-serif;
+    display: flex;
+    padding: 100px 180px;
+    justify-content: left;
+    align-items: left;    
+    justify-content: space-between;
+}
+
+.left-container {
+    flex-direction: column;
+    display: flex;
+    width: 500px;
+    gap: 10px;
+}
+
+.right-container {
+    font-size: 18px;
+    width: 500px;
+    height: 233px;
+    background-color: #808090;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.awesome-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.smaller-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#sign-up-one {
+    background-color: #3B82F6;
+    border-radius: 10px;
+    color: white;
+    width: 125px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.third-section-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.placeholder-image-1,
+.placeholder-image-2,
+.placeholder-image-3,
+.placeholder-image-4 {
+    max-width: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholder-image-1 div.container {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid #3B82F6;
+    margin-bottom: 10px;
+}
+
+.placeholder-image-2 div.container {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid #3B82F6;
+    margin-bottom: 10px;
+}
+
+.placeholder-image-3 div.container {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid #3B82F6;
+    margin-bottom: 10px;
+}
+
+.placeholder-image-4 div.container {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid #3B82F6;
+    max-width: 200px;
+    margin-bottom: 10px;
 }
