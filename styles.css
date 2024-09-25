@@ -159,56 +159,7 @@ ul {
     margin-right: 150px;
 }
 
-.call-to-action-section {
-    padding: 100px 180px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
 
-.inside-container-cta-section {
-    display: flex;
-    border-radius: 10px;
-    gap: 100px;
-    padding: 25px 100px;
-    width: 1000px;
-    background-color: #3882F6;
-    color: white;
-}
-
-.text-one {
-    font-weight: 900;
-    font-size: 25px;
-}
-
-.text-two {
-    font-size: 17px;
-    font-weight: 400;
-}
-
-.left-inside-container-cta-section {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-    padding: 30px;
-    width: 650px;
-}
-
-.right-inside-container-cta-section {
-    display: flex;
-    align-items: center;
-    
-}
-
-#sign-up-two {
-    border: 2px solid white;
-    border-radius: 5px;
-    background-color: #3882F6;
-    color: white;
-    font-size: 18px;
-    padding: 5px;
-    width: 124px;
-}
 
 .footer {
     font-size: 18px;
